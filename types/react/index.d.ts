@@ -2292,6 +2292,7 @@ declare namespace React {
         sizes?: string | undefined;
         type?: string | undefined;
         charSet?: string | undefined;
+        precedence?: string | undefined;
     }
 
     interface MapHTMLAttributes<T> extends HTMLAttributes<T> {
